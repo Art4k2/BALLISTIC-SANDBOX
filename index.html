@@ -649,7 +649,7 @@
   el.fireBtn.addEventListener('click', fireShot);
 
   /* ============================================================
-     PHYSICS (ИЗМЕНЕНО: Без нормализации, 3 калибров и "Не пробил")
+     PHYSICS
   ============================================================ */
   function computeShot(s){
     const plateTiltDeg = s.hullTilt + s.plateAngle;
@@ -1051,7 +1051,7 @@
   }
 
   /* ============================================================
-     TELEMETRY RENDERING (ИЗМЕНЕНО: Без строк нормализации и 3 калибров)
+     TELEMETRY RENDERING
   ============================================================ */
   function renderTelemetryPlaceholder(calculating){
     el.telemetryTimestamp.textContent = '';
